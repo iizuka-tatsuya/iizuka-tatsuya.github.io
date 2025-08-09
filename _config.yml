@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: あなたの名前
-description: 研究者個人ページ
+index.html        ← トップページ
+profile.html      ← プロフィール
+publications.html ← 研究業績
+grants.html       ← グラント
+style.css         ← 共通デザイン
