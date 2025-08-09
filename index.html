@@ -2,8 +2,26 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>研究者ページ - トップ</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .news {
+      margin-top: 30px;
+    }
+    .news-item {
+      background: #f1f5ff;
+      border-left: 5px solid #003366;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .news-date {
+      font-weight: bold;
+      color: #0055a5;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -13,9 +31,29 @@
     <a href="grants.html">グラント</a>
   </nav>
   <main>
-    <h1>〇〇 〇〇（Your Name）</h1>
-    <p>ようこそ、私の研究ページへ。</p>
-    <p>最新情報や研究活動の概要を掲載しています。</p>
+    <h1>ようこそ</h1>
+    <p>こちらは○○大学 ○○研究室の飯塚達也の研究ページです。<br>
+       プロフィール、研究業績、獲得グラントなどをまとめています。</p>
+
+    <section class="news">
+      <h2>お知らせ</h2>
+
+      <div class="news-item">
+        <div class="news-date">2025-08-09</div>
+        <div class="news-text">研究ページを公開しました。</div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-date">2025-07-15</div>
+        <div class="news-text">○○学会で講演を行いました。</div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-date">2025-06-01</div>
+        <div class="news-text">新しい研究プロジェクトが開始しました。</div>
+      </div>
+
+    </section>
   </main>
 </body>
 </html>
